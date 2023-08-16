@@ -1,0 +1,14 @@
+@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model App.Pages.ReplenishmentBalance
+
+@{
+    Layout = "Shared/_Layout";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<h5>@Model.Message</h5>
+<form method="post">
+    <h5>Введите сумму пополнения:</h5> 
+    <input id="money" name="sum" type='text'/> <br />
+    <button id="submit">Пополнить</button>
+</form>

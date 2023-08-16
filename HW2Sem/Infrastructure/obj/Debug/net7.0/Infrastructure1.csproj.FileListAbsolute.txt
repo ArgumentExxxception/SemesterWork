@@ -1,0 +1,15 @@
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/bin/Debug/net7.0/Infrastructure1.deps.json
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/bin/Debug/net7.0/Infrastructure1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/bin/Debug/net7.0/Infrastructure1.pdb
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/bin/Debug/net7.0/Core1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/bin/Debug/net7.0/Core1.pdb
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.csproj.AssemblyReference.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.AssemblyInfoInputs.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.AssemblyInfo.cs
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.csproj.CoreCompileInputs.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.csproj.CopyComplete
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/refint/Infrastructure1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/Infrastructure1.pdb
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/Debug/net7.0/ref/Infrastructure1.dll

@@ -1,0 +1,36 @@
+@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model App.Pages.Feed
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<div class="text-center">
+    <form id="authorForm">
+        <label>Name:<input type="text" id="name" name="name" class="form-control"></label><br>
+        <label>Description: <input type="text" id="desc" name="desc" class="form-control"></label><br>
+        <input type="button" id="saveAuthor" class="btn btn-success" value="Зарегестрироваться"/><br>
+    </form>
+    <div id="resultMes"></div>
+</div>
+<script>
+    $("#saveAuthor").click(function (){
+
+        let authorName = $("#name").val().trim();
+        let description = $("#desc").val().trim();
+        let resMes = $("#resultMes")
+
+        $.ajax({
+            url: '/addNewAuthor',
+            type: 'POST',
+            data: JSON.stringify({'AuthorName' : authorName,'description': description,}),
+            contentType: 'application/json',
+            success: function (data) {
+                resMes.text(data);
+            }
+        });
+    });
+
+</script>

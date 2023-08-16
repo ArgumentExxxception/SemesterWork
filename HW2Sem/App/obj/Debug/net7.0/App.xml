@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App</name>
+    </assembly>
+    <members>
+        <member name="M:App.Controllers.CoinGeckoController.GetAllCoinsPrice">
+            <summary>
+            Получение списка коинов с ID, именем и символом
+            </summary>
+            <returns></returns>
+            <response code="200">Список коинов с Id,именем и символом</response>
+            <response code="500">Ошибка сервера</response>
+        </member>
+        <member name="M:App.Controllers.CoinGeckoController.GetCoinHistory(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Получение изменения цены коина в виде: время(UNIX),цена
+            </summary>
+            <returns>
+            successful operation
+            "prices": [date,price],
+            [secondDate,secondPrice]
+            </returns>
+            <response code="200">Success</response>
+            <response code="500">Ошибка сервера</response>
+        </member>
+        <member name="M:App.Controllers.CoinGeckoController.GetCoinOhlc(System.String,System.Threading.CancellationToken)">
+            <summary>
+            OHLC коинов
+            </summary>
+            <returns>
+            successful operation
+            [1594382400000(time),
+            1.1 (open),
+            2.2 (high),
+            3.3 (low),
+            4.4 (close)]
+            </returns>
+            <response code="200"></response>
+            <response code="500">Ошибка сервера</response>
+        </member>
+    </members>
+</doc>

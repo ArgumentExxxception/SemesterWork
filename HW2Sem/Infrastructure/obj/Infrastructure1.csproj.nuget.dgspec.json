@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/Infrastructure1.csproj": {}
+  },
+  "projects": {
+    "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj",
+        "packagesPath": "/Users/almazahmetsin/.nuget/packages/",
+        "outputPath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/almazahmetsin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/Infrastructure1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/Infrastructure1.csproj",
+        "projectName": "Infrastructure1",
+        "projectPath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/Infrastructure1.csproj",
+        "packagesPath": "/Users/almazahmetsin/.nuget/packages/",
+        "outputPath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Infrastructure1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/almazahmetsin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj": {
+                "projectPath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

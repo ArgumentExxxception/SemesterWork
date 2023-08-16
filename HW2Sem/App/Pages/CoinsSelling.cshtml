@@ -1,0 +1,14 @@
+@page
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model App.Pages.CoinsSelling
+
+@{
+    Layout = "Shared/_Layout";
+}
+<h2>@Model.Message</h2>
+<form method="post">
+    <h5>Введите количество коинов для продажи:</h5> 
+    <input id="coinName" name="coinName" value="Coin Name" type='text'/> <br />
+    <input id="amount" name="amount" value="Amount" type='text'/> <br />
+    <button id="submit">Пополнить</button>
+</form>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ttK2ecEUN8dqgFuGvkNn0NXIyN+ZkLhtK51R4K8KblqGOrjvAl9BMW/bsUgoZF7En2ruoVLeqqLCagO7Klw4ZQ==",
+  "success": true,
+  "projectFilePath": "/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/almazahmetsin/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

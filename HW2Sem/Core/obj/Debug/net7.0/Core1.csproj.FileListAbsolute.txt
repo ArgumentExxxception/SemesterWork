@@ -1,0 +1,12 @@
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/bin/Debug/net7.0/Core1.deps.json
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/bin/Debug/net7.0/Core1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/bin/Debug/net7.0/Core1.pdb
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.csproj.AssemblyReference.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.AssemblyInfoInputs.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.AssemblyInfo.cs
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.csproj.CoreCompileInputs.cache
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/refint/Core1.dll
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/Core1.pdb
+/Users/almazahmetsin/Documents/vs-code/HW2Sem/Core1/obj/Debug/net7.0/ref/Core1.dll

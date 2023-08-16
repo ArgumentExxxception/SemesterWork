@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Pages\Authorize.cshtml" />
+      <AdditionalFiles Include="Pages\CoinsSelling.cshtml" />
+      <AdditionalFiles Include="Pages\Error.cshtml" />
+      <AdditionalFiles Include="Pages\Feed.cshtml" />
+      <AdditionalFiles Include="Pages\Feed2.cshtml" />
+      <AdditionalFiles Include="Pages\Index.cshtml" />
+      <AdditionalFiles Include="Pages\Market.cshtml" />
+      <AdditionalFiles Include="Pages\NewMarket.cshtml" />
+      <AdditionalFiles Include="Pages\Privacy.cshtml" />
+      <AdditionalFiles Include="Pages\Register.cshtml" />
+      <AdditionalFiles Include="Pages\ReplenishmentBalance.cshtml" />
+      <AdditionalFiles Include="Pages\Shared\_Layout.cshtml" />
+      <AdditionalFiles Include="Pages\Shared\_ValidationScriptsPartial.cshtml" />
+      <AdditionalFiles Include="Pages\UserPage.cshtml" />
+      <AdditionalFiles Include="Pages\_ViewImports.cshtml" />
+      <AdditionalFiles Include="Pages\_ViewStart.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hangfire" Version="1.8.2" />
+      <PackageReference Include="Hangfire.AspNetCore" Version="1.8.2" />
+      <PackageReference Include="Hangfire.Core" Version="1.8.2" />
+      <PackageReference Include="Hangfire.PostgreSql" Version="1.19.12" />
+      <PackageReference Include="Hangfire.PostgreSql.Npgsql5" Version="1.19.11" />
+      <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="6.5.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.4.23259.3" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.4" />
+      <PackageReference Include="Serilog" Version="3.0.0-dev-02022" />
+      <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+      <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.1-dev-00944" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00910" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00947" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Core.csproj" />
+      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

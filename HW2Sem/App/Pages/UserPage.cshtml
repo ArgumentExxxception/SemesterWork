@@ -1,0 +1,125 @@
+@page
+@using HW2Sem.Entities
+@model App.Pages.UserPage
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<link rel="stylesheet" href="css/dropdownUserPage.css"/>
+<style>
+  .user-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .user-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .user-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .user-form input[type="text"],
+  .user-form input[type="email"],
+  .user-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #555;
+    cursor: not-allowed;
+  }
+</style>
+<div class="dropdown">
+  <button class="dropdown-btn">Совершенные покупки</button>
+  <div class="dropdown-content">
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Coin Name</th>
+        <th>Coin Amount</th>
+        <th>Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      @foreach (var purchase in Model.Purchases)
+      {
+        <tr>
+          <td>@purchase.Id</td>
+          <td>@purchase.CoinName</td>
+          <td>@purchase.CoinAmount</td>
+          <td>@purchase.Price</td>
+        </tr>
+      }
+      </tbody>
+    </table>
+
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropdown-btn">Мои коины</button>
+  <div class="dropdown-content">
+    <table>
+      <thead>
+      <tr>
+        <th>Coin Name</th>
+        <th>Coin Amount</th>
+      </tr>
+      </thead>
+      <tbody>
+      @if (Model.UserCoinsList != null)
+      {
+        @foreach (var userCoins in Model.UserCoinsList)
+        {
+          <tr>
+            <td>@userCoins.CoinName</td>
+            <td>@userCoins.Count</td>
+          </tr>
+        }
+      }
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="user-form">
+  <h2>Информация о пользователе</h2>
+  @foreach (var user in Model.User)
+  {
+    <label for="username">Никнейм:</label>
+    <input type="text" id="username" value="@user.Username" readonly>
+
+    <label for="email">Почта:</label>
+    <input type="email" id="email" value="@user.Email" readonly>
+
+    <label for="balance">Баланс:</label>
+    <input type="text" id="balance" value="@user.Balance" readonly>
+                                                           
+    <label for="balance">Роль</label>
+    <input type="text" id="balance" value="@user.Role" readonly>
+  }
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var dropdownBtn = document.querySelector(".dropdown-btn");
+    var dropdownContent = document.querySelector(".dropdown-content");
+    
+    dropdownBtn.addEventListener("click", function() {
+      dropdownContent.style.display = dropdownContent.style.display === "none" ? "block" : "none";
+    });
+  });
+</script>
